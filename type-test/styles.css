@@ -11,7 +11,7 @@ body {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
 }
 
-body, .qoute-input {
+body, .quote-input {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -37,7 +37,7 @@ body, .qoute-input {
     margin-right: calc(1rem + 2px);
 }
 
-.qoute-input{
+.quote-input{
     background-color: transparent;
     border: 2px solid #cdcdcd;
     border-radius: 0.3rem;
@@ -50,6 +50,15 @@ body, .qoute-input {
     font-size: 1rem;
 }
 
-.qoute-input:focus{
+.quote-input:focus{
     border-color: black;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
 }
